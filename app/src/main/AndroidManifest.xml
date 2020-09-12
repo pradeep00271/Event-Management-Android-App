@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.student.clubhub">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PagerAdapter" />
+        <activity android:name=".rotract" />
+        <activity android:name=".Gtimes" />
+        <activity android:name=".Leo" />
+        <activity android:name=".Ctf" />
+        <activity android:name=".Aakriti" />
+        <activity
+            android:name=".Capitalize"
+            android:label="@string/title_activity_capitalize"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Green"
+            android:label="@string/title_activity_green"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Robo"
+            android:label="@string/title_activity_robo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Siru" />
+        <activity android:name=".Spar" />
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".Homepage" />
+        <activity android:name=".SecondPage" />
+        <activity android:name=".post_event" />
+        <activity android:name=".input_events"></activity>
+    </application>
+
+</manifest>

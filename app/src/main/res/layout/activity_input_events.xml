@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.example.student.clubhub.input_events">
+
+
+<EditText
+    android:id="@+id/event_name"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="51dp"
+    android:ems="10"
+    android:hint="Enter Your Event Name and Venue(Vyuha @ Vivek audi)..."
+    android:inputType="text"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true" />
+
+<EditText
+    android:id="@+id/club_name"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/event_name"
+    android:layout_alignStart="@+id/event_name"
+    android:layout_below="@+id/event_name"
+    android:layout_marginTop="22dp"
+    android:ems="10"
+    android:hint="Enter Club name.."
+    android:inputType="text" />
+
+
+<EditText
+    android:id="@+id/decription_edit"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/club_name"
+    android:layout_alignStart="@+id/club_name"
+    android:layout_below="@+id/club_name"
+    android:ems="10"
+    android:hint="Enter The Date and Time (12:2:2017 8am)"
+    android:inputType="datetime"/>
+
+<Button
+    android:id="@+id/post"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+
+    android:layout_alignParentStart="true"
+    android:layout_marginBottom="17dp"
+    android:text="POST" />
+
+
+</RelativeLayout>
